@@ -1,0 +1,197 @@
+/* ini untuk css */
+
+/* Style untuk body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b5b5b5;
+    color: #333;
+    margin: 20px;
+}
+
+/* Style untuk container */
+.container {
+    background-color: #afafaf;
+    padding: 60px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: auto;
+}
+h1 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+input[type="number"], textarea {
+    margin: 10px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    width: 100%;
+    padding: 10px 0px 10px 5px;
+    margin-bottom: 20px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    font-size: 16px;
+}
+/* Style untuk tombol */
+button {
+    margin: 14px;
+    margin-bottom: 30px;
+    background: #5E5DF0;
+    border-radius: 999px;
+    box-shadow: #5E5DF0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+}
+button:nth-child(2) {
+    background-color: #c73434;
+}
+button:nth-child(3) {
+    background-color: #34C759;
+}
+/* Style untuk tombol hover */
+button:hover {
+    background-color: #0b0b7a;
+}
+button:nth-child(2):hover{
+    background-color: #750101;
+}
+button:nth-child(3):hover{
+    background-color: #037720;
+}
+/* Style untuk perhitungan */
+.calculation {
+    background-color: #F0F0F0;
+    padding: 20px 35px 20px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.calculation p {
+    margin: 0;
+}
+.section-title {
+    color: #6A5ACD;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.formula {
+    font-size: 16px;
+    margin-top: 10px;
+}
+.label{
+    margin: 5px;
+    margin-top: 5px;
+}
+
+/* Style mobile */
+@media only screen and (max-width: 768px) {
+    body {
+      font-size: 16px;
+      background-color: #b5b5b5;
+    }
+    .container {
+      background-color: #afafaf;
+      padding: 20px;
+      margin: 10px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      max-width: 90%;
+    }
+    h1 {
+      font-size: 18px;
+      margin-bottom: 15px;
+    }
+    label {
+      display: block;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+    input[type="number"], textarea {
+      margin: 10px;
+      margin-bottom: 15px;
+      margin-left: 0px;
+      width: 90%;
+      padding: 10px 0px 10px 5px;
+      border: 1px solid #CCC;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+    button {
+      margin: 10px;
+      margin-bottom: 15px;
+      background: #5E5DF0;
+      border-radius: 999px;
+      box-shadow: #5E5DF0 0 10px 20px -10px;
+      box-sizing: border-box;
+      color: #FFFFFF;
+      cursor: pointer;
+      font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 24px;
+      opacity: 1;
+      outline: 0 solid transparent;
+      padding: 6px 12px;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      width: fit-content;
+      word-break: break-word;
+      border: 0;
+    }
+    button:nth-child(2) {
+      background-color: #c73434;
+    }
+    button:nth-child(3) {
+      background-color: #34C759;
+    }
+    button:hover {
+      background-color: #0b0b7a;
+    }
+    button:nth-child(2):hover{
+      background-color: #750101;
+    }
+    button:nth-child(3):hover{
+      background-color: #037720;
+    }
+    .calculation {
+      background-color: #F0F0F0;
+      padding: 15px 20px;
+      border-radius: 20px;
+      margin-top: 15px;
+    }
+    .calculation p {
+      margin: 0;
+    }
+    .section-title {
+      color: #6A5ACD;
+      font-weight: bold;
+      margin-top: 15px;
+    }
+    .formula {
+      font-size: 14px;
+      margin-top: 10px;
+    }
+    .label{
+      margin: 3px;
+      margin-top: 3px;
+    }
+  }
